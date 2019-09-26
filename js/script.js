@@ -112,7 +112,7 @@ function scrollFunction() {
     document.getElementById("menu").style.lineHeight = "70px";
     document.getElementById("menu").style.marginLeft = "50px";
     document.getElementById("logo").style.backgroundImage =
-      "url('../images/logo-full-scroll.png')";
+      'url("../images/logo-full-scroll.png")';
   } else if (window.innerWidth > 990) {
     document.getElementById("header").style.height = "90px";
     document.getElementById("logo").style.height = "130px";
@@ -124,7 +124,7 @@ function scrollFunction() {
     document.getElementById("menu").style.lineHeight = "90px";
     document.getElementById("menu").style.marginLeft = "60px";
     document.getElementById("logo").style.backgroundImage =
-      "url('../images/logo-full.png')";
+      "url('images/logo-full.png')";
   } else if
     (window.innerWidth < 550 && (document.body.scrollTop > 50 ||
       document.documentElement.scrollTop > 50)
@@ -140,7 +140,7 @@ function scrollFunction() {
     document.getElementById("burger").style.lineHeight = "44px";
     document.getElementById("menu").style.marginLeft = "50px";
     document.getElementById("logo").style.backgroundImage =
-      "url('../images/logo-max500-scroll.png')";
+      "url('/images/logo-max500-scroll.png')";
   } else if (window.innerWidth < 550) {
     document.getElementById("header").style.height = "52px";
     document.getElementById("logo").style.height = "90px";
