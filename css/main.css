@@ -1058,13 +1058,13 @@ a {
 
 
   .header-image {
-    height: 36em;
+    height: 32em;
     background-image: url("../images/mob-header-image.jpg");
     border-bottom: 8px solid #000;
   }
 
   .my-desc {
-    top: 16em;
+    top: 14em;
     left: 70px;
     max-width: 300px;
   }
