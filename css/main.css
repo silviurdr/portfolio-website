@@ -44,7 +44,7 @@ body, html {
   transition: all 0.3s ease;
   border-radius: 50%;
   z-index: 100;
-  background-image: url("/images/logo-full.png");
+  background-image: url("../images/logo-full.png");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -191,7 +191,7 @@ nav ul li a {
 .header-image {
   width: 100%;
   height: 41em;
-  background-image: url("/images/header-image.jpg");
+  background-image: url("../images/header-image.jpg");
   border-bottom: 14px solid #000;
   background-repeat: no-repeat;
   background-size: cover;
@@ -343,23 +343,23 @@ main {
 }
 
 .project-image-mca {
-  background-image: url("/images/mca.jpg");
+  background-image: url("../images/mca.jpg");
   margin-right: 5%;
 }
 
 .project-image-isc {
-  background-image: url("/images/isc.jpg");
+  background-image: url("../images/isc.jpg");
   margin-left: 5%;
 }
 
 .project-image-bmm {
-  background-image: url("/images/bmm.jpg");
+  background-image: url("../images/bmm.jpg");
   margin-right: 5%;
   background-position: center;
 }
 
 .project-image-uma {
-  background-image: url("/images/uma.jpg");
+  background-image: url("../images/uma.jpg");
   margin-left: 5%;
 }
 
@@ -585,22 +585,22 @@ a {
 }
 
 .skills-icon-jquery {
-  background-image: url("/images/jQuery.png");
+  background-image: url("../images/jQuery.png");
   transition: background-image 0.3s;
 }
 
 .skills-icon-jquery:hover {
-  background-image: url("/images/jQuery-hover.png");
+  background-image: url("../images/jQuery-hover.png");
 }
 
 
 .skills-icon-photoshop {
-  background-image: url("/images/Photoshop.png");
+  background-image: url("../images/Photoshop.png");
   transition: background-image 0.3s;
 }
 
 .skills-icon-photoshop:hover {
-  background-image: url("/images/Photoshop-hover.png");
+  background-image: url("../images/Photoshop-hover.png");
 }
 
 
@@ -851,7 +851,7 @@ a {
     height: 100px;
     border: 10px solid #000;
     margin-top: 22px;
-    background-image: url("/images/logo-max990-500.png");
+    background-image: url("../images/logo-max990-500.png");
   }
  
   .col-9  {
@@ -910,25 +910,25 @@ a {
     max-width: 190px;
     max-height: 190px;
     border: 10px solid #000;
-    background-image: url("/images/mca.jpg");
+    background-image: url("../images/mca.jpg");
     display: block;
     margin: 0 auto;
     margin-right: 5%;
   }
   
   .project-image-isc {
-    background-image: url("/images/isc.jpg");
+    background-image: url("../images/isc.jpg");
     margin-left: 5%;
   }
 
   .project-image-bmm {
-    background-image: url("/images/bmm.jpg");
+    background-image: url("../images/bmm.jpg");
     background-position: center;
     margin-right: 5%;
   }
   
   .project-image-uma {
-    background-image: url("/images/uma.jpg");
+    background-image: url("../images/uma.jpg");
     margin-left: 5%;
   }
 
@@ -1031,7 +1031,7 @@ a {
     border: 8px solid #000;
     line-height: 70px;
     margin-top: 11px !important;
-    background-image: url("/images/logo-max990-500.png");
+    background-image: url("../images/logo-max990-500.png");
   }
 
 
@@ -1059,7 +1059,7 @@ a {
 
   .header-image {
     height: 36em;
-    background-image: url("/images/mob-header-image.jpg");
+    background-image: url("../images/mob-header-image.jpg");
     border-bottom: 8px solid #000;
   }
 
@@ -1183,11 +1183,11 @@ span.icons-details.icons-details-code {
   }
 
   .skills-icon-jquery {
-    background-image: url("/images/jQuery-mob.png");
+    background-image: url("../images/jQuery-mob.png");
   }
   
   .skills-icon-photoshop {
-    background-image: url("/images/Photoshop-mob.png");
+    background-image: url("../images/Photoshop-mob.png");
   }
 
   .books {
