@@ -359,8 +359,9 @@ main {
 }
 
 .project-image-uma {
-  background-image: url("../images/uma.jpg");
+  background-image: url("../images/jmd.jpg");
   margin-left: 5%;
+  background-position: center;
 }
 
 .project-description {
@@ -928,8 +929,9 @@ a {
   }
   
   .project-image-uma {
-    background-image: url("../images/uma.jpg");
+    background-image: url("../images/jmd-mob.jpg");
     margin-left: 5%;
+
   }
 
   .project-description {
