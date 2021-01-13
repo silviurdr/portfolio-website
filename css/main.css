@@ -343,12 +343,12 @@ main {
 
 .project-image-isc {
   background-image: url("../images/isc.jpg");
-  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .project-image-bmm {
-  background-image: url("../images/bmm.jpg");
-  margin-right: 5%;
+  background-image: url("../images/bmm.png");
+  margin-left: 5%;
   background-position: center;
 }
 
@@ -893,6 +893,11 @@ a.disabled {
     margin-right: 20px;
   }
 
+  .demo-link-disabled {
+    width: 110px;
+    margin-right: 20px;
+  }
+
   .gh-link {
     width: 110px;
   }
@@ -922,13 +927,13 @@ a.disabled {
   }
 
   .project-image-bmm {
-    background-image: url("../images/bmm.jpg");
+    background-image: url("../images/bmm.png");
     background-position: center;
-    margin-right: 5%;
+    margin-left: 5%;
   }
 
   .project-image-uma {
-    background-image: url("../images/jmd-mob.jpg");
+    background-image: url("../images/uma.jpg");
     margin-left: 5%;
   }
 
@@ -1243,6 +1248,11 @@ a.disabled {
 
 @media screen and (max-width: 349px) {
   .demo-link {
+    width: 80px;
+    line-height: 1.15em;
+  }
+
+  .demo-link-disabled {
     width: 80px;
     line-height: 1.15em;
   }
