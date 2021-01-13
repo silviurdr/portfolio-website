@@ -574,7 +574,8 @@ a.disabled {
 }
 
 .skills-icon-jquery,
-.skills-icon-photoshop {
+.skills-icon-photoshop,
+.skills-icon-dotnet {
   margin: 0em 0.3em;
   height: 100px;
   width: 100px;
@@ -599,6 +600,15 @@ a.disabled {
 
 .skills-icon-photoshop:hover {
   background-image: url("../images/Photoshop-hover.png");
+}
+
+.skills-icon-dotnet {
+  background-image: url("../images/dotnet-rounded.png");
+  transition: background-image 0.3s;
+}
+
+.skills-icon-dotnet:hover {
+  background-image: url("../images/dotnet-rounded-hover.png");
 }
 
 /*************************
